@@ -1,6 +1,6 @@
 {
     "name": "odydo/redis_lbs",
-    "license": "GPL",
+    "license": "NGPL",
     "authors": [
         {
             "name": "tim",
