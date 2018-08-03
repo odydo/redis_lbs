@@ -38,7 +38,7 @@ class LBSServer implements LBSInterface
         extract($config);
 
         if (is_null(self::$redis)){
-            $redis = new RedisServer();
+            $redis = new RedisServer($redis_connection);
             self::$redis = $redis::$server;
         }
 
