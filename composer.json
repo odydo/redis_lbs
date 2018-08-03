@@ -18,7 +18,7 @@
     },
     "autoload": {
         "classmap": ["src/"],
-        "files": ["src/helpers.php"],
+        "files": ["src/Helpers.php"],
         "psr-4": {
             "LBS\\": "src/"
         }
